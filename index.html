@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">-->
+
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+    <title>Portafolio </title>
+</head>
+
+<body>
+    <header class="container-fluid bg-dark text-white text-center py-3"><div class="main" id="section1"></div>
+        <h1>El clima</h1>
+        <p>Clima en capitales regionales</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-navbar" src="assets/img/weather-svgrepo-com.svg" alt="Logo Abeja">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sitios de Interés
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.meteochile.gob.cl/PortalDMC-web/index.xhtml" target="_blank">Clima en Chile</a></li>
+                            <li><a class="dropdown-item" href="www.windy.com/es/" target="_blank">Radar climático</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://cambioclimatico.mma.gob.cl" target="_blank">Cambio climatico</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="http://www.google.com" target="_blank">Google</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+     <main class="container-fluid m-0 p-o">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <h3>Clima por ciudad</h3>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+    <div class="col">
+    <div class="card">
+      <img src="assets/img/sun-sunny-svgrepo-com.svg" class="card-img-top-s" width="50" alt="soleado">
+      <div class="card-body">
+        <button type="button" a href="https://www.meteored.cl/tiempo-en_Santiago+de+Chile-America+Sur-Chile-Region+Metropolitana+de+Santiago-SCEL-1-18578.html" class="btn btn-success" >Santiago</button>
+        <p class="card-text">puede referirse a la capital de Chile, que es la ciudad principal y el centro administrativo y cultural del país, también conocida como Santiago de Chile</p>
+        <h3>Temperatura</h3><h5>20°C</h5>
+        <h3>Soleado</h3>
+        <h3>Humedad</h3><h5>50%</h5>
+      </div>
+    </div>
+   </div>
+    <div class="col">
+    <div class="card">
+      <img src="assets/img/sun-sunny-svgrepo-com.svg" class="card-img-top-s" width="50" alt="soleado">
+      <div class="card-body">
+        <button a href="https://www.meteored.cl/tiempo-en_Rancagua-America+Sur-Chile-Libertador+General+Bernardo+O+Higgins--1-18259.html" class="btn btn-success">Rancagua</button>
+        <p class="card-text">es una ciudad y comuna de la zona central de Chile, capital de la provincia de Cachapoal y de la región del Libertador General Bernardo O'Higgins.</p>
+        <h3>Temperatura</h3><h5>21°C</h5>
+        <h3>Soleado</h3>
+        <h3>Humedad</h3><h5>56%</h5>
+      </div>
+    </div>
+ </div>
+  <div class="col">
+  <div class="card">
+      <img src="assets/img/nubes y claros.svg" class="card-img-top-s" width="50" alt="nubes y claros">
+      <div class="card-body">
+        <button a href="https://www.meteored.cl/tiempo-en_Temuco-America+Sur-Chile-Araucania-SCTC-1-18267.html" class="btn btn-success">Temuco</button>
+        <p class="card-text"> es una ciudad de la zona sur de Chile, capital de la provincia de Cautín y de la Región de La Araucanía. Fue fundada como fuerte en 1881 por Manuel Recabarren Rencoret debido principalmente a su ubicación estratégica en el valle central de la región.</p>
+        <h3>Temperatura</h3><h5>23°C</h5>
+        <h3>Nubes y claros</h3>
+        <h3>Humedad</h3><h5>60%</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card">
+      <img src="assets/img/sun-sunny-svgrepo-com.svg" class="card-img-top-s" width="50" alt="soleado">
+      <div class="card-body">
+        <button a href="https://www.meteored.cl/tiempo-en_Puerto+Montt-America+Sur-Chile-Los+Lagos-SCTE-1-18567.html" class="btn btn-success">Puerto Montt</button>
+        <p class="card-text"> Puerto Montt es una ciudad y comuna situada en la zona sur de Chile. Es capital de la provincia de Llanquihue y de la Región de Los Lagos. Se ubica a 918 km al sur de Santiago, frente al seno de Reloncaví, y cuenta con una población de 245 902 habitantes según el censo de 2017</p>
+        <h3>Temperatura</h3><h5>17°C</h5>
+        <h3>Soleado</h3>
+        <h3>Humedad</h3><h5>80%</h5>
+      </div>
+  </div>
+</div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/cloudy-forecast-sun-svgrepo-com.svg" class="card-img-top-s" width="50" alt="Nublado">
+      <div class="card-body">
+        <button a href="https://www.meteored.cl/tiempo-en_Concepcion-America+Sur-Chile-Biobio-SCIE-1-18576.html" class="btn btn-success">Concepcion</button>
+        <p class="card-text"> Concepción es una ciudad y comuna ubicada en la zona central de Chile, a aproximadamente 450 km al sur de la capital, Santiago, y a unos 30 km al norte del Centro Geográfico de Chile continental, ubicado en la comuna de Coronel. Concepción es también el centro geográfico y demográfico del Área Metropolitana de Concepción, así como la capital de la provincia homónima y de la Región del Biobío. </p>
+        <h3>Temperatura</h3><h5>14°C</h5>
+        <h3>Nublado</h3>
+        <h3>Humedad</h3><h5>60%</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/nubes y claros.svg" class="card-img-top-s" width="50" alt="Nubes y claros">
+      <div class="card-body">
+        <button a href="https://www.meteored.cl/tiempo-en_Vina+del+Mar-America+Sur-Chile-Valparaiso--1-18260.html" class="btn btn-success">Valparaiso</button>
+        <p class="card-text">Valparaíso es una comuna y ciudad capital de la provincia y Región de Valparaíso. Se sitúa en la zona central de Chile y es el centro histórico, institucional y universitario del Gran Valparaíso </p>
+        <h3>Temperatura</h3><h5>17°C</h5>
+        <h3>Nubes y claros</h3>
+        <h3>Humedad</h3><h5>64%</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sun-sunny-svgrepo-com.svg" class="card-img-top-s" width="50" alt="Soleado">
+      <div class="card-body">
+        <button a href="https://www.meteored.cl/tiempo-en_Talca-America+Sur-Chile-Maule--1-18263.html" class="btn btn-success">Talca</button>
+        <p class="card-text"> Talca (del mapudungun: Tralka ‘sitio de truenos’)[3]​ es una ciudad ubicada en la zona central de Chile, capital de la provincia homónima y de la Región del Maule. Se encuentra a 255 kilómetros al sur de la capital Santiago. Situada cerca del cruce entre el río Claro y el estero Piduco, fue fundada por el Gobernador Real José Manso de Velasco el 12 de mayo de 1742 bajo el nombre de Villa San Agustín de Talca.</p>
+        <h3>Temperatura</h3><h5>27°C</h5>
+        <h3>soleado</h3>
+        <h3>Humedad</h3><h5>43%</h5>
+      </div>
+    </div>
+  </div>
+ <div class="col">
+    <div class="card">
+      <img src="" class="card-img-top-s" width="50" alt="Nublado">
+      <div class="card-body">
+        <button a href="" class="btn btn-success">Chillan</button>
+        <p class="card-text">Chillán es una comuna de la zona central de Chile, es capital de la Región de Ñuble. Su área urbana, en conjunto con la comuna de Chillán Viejo, conforman la Conurbación Chillán. </p>
+        <h3>Temperatura</h3><h5>27°C</h5>
+        <h3>Soleado</h3>
+        <h3>Humedad</h3><h5>40%</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/parcialmente nuboso.svg" class="card-img-top-s" width="50" alt="Nublado">
+      <div class="card-body">
+        <button a href="" class="btn btn-success">La serena</button>
+        <p class="card-text">La Serena es una comuna de Chile perteneciente a la provincia de Elqui, en la Región de Coquimbo, ubicada en la zona norte del país, a orillas del océano Pacífico. La ciudad constituye la capital regional y uno de los principales centros urbanos del norte chico de Chile.Se caracteriza por su centro histórico, donde predomina la arquitectura neocolonial española, con construcciones de piedra, balcones y plazas, así como por sus extensas playas que la han convertido en un destino turístico nacional. </p>
+        <h3>Temperatura</h3><h5>19°C</h5>
+        <h3>parcialmente nuboso</h3>
+        <h3>Humedad</h3><h5>63%</h5>
+      </div>
+    </div>
+  </div>
+ <div class="col">
+    <div class="card">
+      <img src="assets/img/sun-sunny-svgrepo-com.svg" class="card-img-top-s" width="50" alt="Nublado">
+      <div class="card-body">
+        <button a href="https://www.meteored.cl/tiempo-en_Valdivia-America+Sur-Chile-Los+Lagos--1-18266.html" class="btn btn-success">Valdivia</button>
+        <p class="card-text">Valdivia es una ciudad y comuna de la zona sur de Chile, capital de la Región de Los Ríos, ubicada aproximadamente a 848 kilómetros al sur de la ciudad de Santiago, la capital de Chile,​ Está emplazada en la confluencia de los ríos Calle-Calle, Valdivia, Caucau y Cruces, y se encuentra a tan solo 15 kilómetros de la bahía de Corral. </p>
+        <h3>Temperatura</h3><h5>22°C</h5>
+        <h3>Soleado</h3>
+        <h3>Humedad</h3><h5>40%</h5>
+      </div>
+    </div>
+  </div>
+    </main>
+
+    <aside>
+
+    </aside>
+
+    <footer class="container-fluid bg-dark text-white p-5">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="assets/img/weather-svgrepo-com.svg" width="100" alt="Logo Empresa">
+                <p class="d-inline">&copy;2025 Bootcamp FrontEnd Javascript</p>
+            </div>
+              
+        </div>
+<body>
+<div class="main" id="section2">
+  <a href="#section1">
+    <button type="button" 
+    a href="section2" 
+    class="btn btn-success">
+    Ir Arriba
+</button>
+</a>
+</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-transparent border border-0">
+                    <div class="card-header border border-0">
+                        <h4 class="card-title text-white">Subscríbete a nuestro newsletter!!!!</h4>
+                    </div>
+                    <div class="card-body border border-0">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Ingresa tu correo electrónico">
+                            <button class="btn btn-outline-light" type="button">Enviar</button>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center border border-0">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://instagram.com" target="_blank">
+                                    <i class="bi bi-instagram fs-1 text-white"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://tiktok.com" target="_blank">
+                                    <i class="bi bi-tiktok fs-1 text-white"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://www.facebook.com" target="_blank">
+                                    <i class="bi bi-facebook fs-1 text-white"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://linkedin.com" target="_blank">
+                                    <i class="bi bi-linkedin fs-1 text-white"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="text-white">
+        <div class="row text-center">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque mollitia earum repudiandae harum numquam
+                eveniet molestiae soluta alias dolore facere!</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!--    
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    -->
+</body>
+
+</html>
